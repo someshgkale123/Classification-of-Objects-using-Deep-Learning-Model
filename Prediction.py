@@ -13,7 +13,7 @@ class MyLoss(nn.Module):
 
 
 class Model(object):
-    def __init__(self, path='/content/drive/My Drive/Colab Notebooks/bbc_train/', file='export.pkl'):
+    def __init__(self, path='data/models/', file='export.pkl'):
         
         self.learn=load_learner(path=path, file=file) #Load model
         self.class_names=['brick', 'ball', 'cylinder'] #Be careful here, labeled data uses this order, but fastai will use alphabetical by default!
