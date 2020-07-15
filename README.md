@@ -1,7 +1,7 @@
 # Classification of Objects using Deep Learning Model
 Training a Deep learning model to classify images of bricks, balls or cylinders against a cluttered background using the pre-trained Alexnet model in fastai/pytorch, to perform classification, detection and segmentation simultaneously.
 
-#Dataset
+# Dataset
 
 Dataset includes 1k images of bricks, balls and cylinders placed in with other surrounding objects.
 
